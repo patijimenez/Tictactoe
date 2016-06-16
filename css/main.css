@@ -1,0 +1,28 @@
+#area-juego {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  list-style: none;
+  width: 156px;
+  height: 155px;
+  background: #f1f1f1;
+}
+ div {
+  width: 50px;
+  height: 50px;
+  font-size: 1.4rem;
+  line-height: 50px;
+  text-align: center;
+  background: #fff;
+}
+button {
+  margin: 5px 25px;
+  visibility: hidden;
+}
